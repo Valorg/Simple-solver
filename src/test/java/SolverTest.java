@@ -6,7 +6,7 @@ class SolverTest {
 
     @Test
     void solve() {
-        String simple = Solver.Solve("5000+10*25 - 70 / 35");
+        String simple = Solver.Solve("5+10*25 - 70 / 35");
         assertEquals("253", simple);
         String doub = Solver.Solve("3.4 + 4.6 * 2.0    / 0.643 - 5+2 *2.6-  8/8");
         assertEquals("16.908", doub);
